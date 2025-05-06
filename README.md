@@ -47,9 +47,19 @@ VAR DeliveryDate = RELATED(Purchase_Orders[Delivery_Date])
 RETURN
     IF(Goods_Receipt[Receipt_Date] > DeliveryDate, 1, 0)
 
-### Fulfillment Rate:
+## Fulfillment Rate:
 Fulfillment_Rate = 
 DIVIDE(SUM(Goods_Receipt[Qty_Received]), SUM(Purchase_Orders[Qty_Ordered]))
+
+
+![image](https://github.com/user-attachments/assets/929cbf71-c4c2-451b-ae4d-8a63a79a9ff1)
+
+
+
+
+
+
+
 
 
 
