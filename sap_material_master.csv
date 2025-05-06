@@ -1,0 +1,5 @@
+Material_ID,Material_Desc,Plant,Material_Group,Stock_Qty,Valuation_Class
+MAT001,Steel Bolt,1000,FG,1200,3000
+MAT002,Aluminum Sheet,1000,RM,3000,2000
+MAT003,Plastic Cover,2000,FG,1500,3000
+MAT004,Copper Wire,2000,RM,500,2000
